@@ -12,4 +12,8 @@ Antes de começar, verifique se sua multimidia funciona com um teclado padrão, 
 
 Neste caso foi usado uma Arduino Esp32 S2 4mb Flash 2mb Psram D1 Minm, mas qualquer outra parecida que tenha usb-otg vai te atender.
 
+Coloque a pinagem que você preferir na const int pins[] = {3, 5, 10, 17, 18, 36}, mas deve seguir essa ordem:
+Preto, Vermelho, Marrom, Verde, Amarelo, Cinza
+
 O DebugButtons pode te ajudar caso não funcionar algum botão, você terá que pegar o hex que vai estar no console e adicionar na função handleEvent do USB-HID.
+
